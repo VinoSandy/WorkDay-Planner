@@ -8,12 +8,11 @@ setInterval(function () {
 
 
 // Get the current hour using the formattedDateTime
-
 var today= dayjs();
 var currentHour = today.hour();
 
 
-
+//sets the attribute past, present, future by comparing current time and apptime
 $(".time-block").each(function(){
 
 var appHour = parseInt($(this).attr("id").split("hour")[1]);
@@ -41,6 +40,8 @@ else{
 
 })
 
+//save the event data in local storage
+
  $(".saveBtn").click(function (event) {
     event.preventDefault();
 
@@ -50,7 +51,7 @@ var eventTime = $(this).parent().attr("id");
 localStorage.setItem(eventTime,eventText);
 
 })
-
+// get the eventdata from local storage
 $("#hour8 .description").val(localStorage.getItem("hour8"));
 $("#hour9 .description").val(localStorage.getItem("hour9"));
 $("#hour10 .description").val(localStorage.getItem("hour10"));
@@ -62,9 +63,8 @@ $("#hour15 .description").val(localStorage.getItem("hour15"));
 $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
 
+//clears the data from local storage
 $(".clear").click(function(event){
-
-
     event.preventDefault();
      $("textarea").val("");
     localStorage.clear();
