@@ -29,7 +29,17 @@
 
   https://vinosandy.github.io/WorkDay-Planner/
 
-  
+
+## Reference Used:
+   * https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-save
+
+   * https://day.js.org/docs/en/display/format
+
+   * https://getbootstrap.com/
+
+   * https://blog.teamtreehouse.com/storing-data-on-the-client-with-localstorage#:~:text=To%20store%20data%20in%20LocalStorage%2C%20you%20use%20the%20setItem(),name'%2C%20'Matt%20West')%3B
+
+     
 
  
 
