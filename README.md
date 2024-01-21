@@ -21,6 +21,18 @@
 
     * When the user clicks the clear-event button all the events are cleared from the localstorage and the application is displayed with no events added in the hour element.
 
+## GitHub URL:
+
+   https://github.com/VinoSandy/WorkDay-Planner.git
+
+## Deployed Application URL:
+
+  https://vinosandy.github.io/WorkDay-Planner/
+
+  
+
+ 
+
 
    
 
